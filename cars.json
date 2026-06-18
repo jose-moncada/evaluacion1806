@@ -1,0 +1,104 @@
+{
+    "carros": [
+        {
+            "id": 1,
+            "marca": "Toyota",
+            "modelo": "Corolla",
+            "anio": 2023,
+            "color": "Blanco",
+            "precio": 95000000,
+            "combustible": "Gasolina",
+            "transmision": "Automatica"
+        },
+        {
+            "id": 2,
+            "marca": "Chevrolet",
+            "modelo": "Onix",
+            "anio": 2024,
+            "color": "Rojo",
+            "precio": 78000000,
+            "combustible": "Gasolina",
+            "transmision": "Manual"
+        },
+        {
+            "id": 3,
+            "marca": "Renault",
+            "modelo": "Duster",
+            "anio": 2022,
+            "color": "Gris",
+            "precio": 89000000,
+            "combustible": "Gasolina",
+            "transmision": "Automatica"
+        },
+        {
+            "id": 4,
+            "marca": "Mazda",
+            "modelo": "CX-30",
+            "anio": 2024,
+            "color": "Negro",
+            "precio": 125000000,
+            "combustible": "Gasolina",
+            "transmision": "Automatica"
+        },
+        {
+            "id": 5,
+            "marca": "Kia",
+            "modelo": "Sportage",
+            "anio": 2023,
+            "color": "Azul",
+            "precio": 138000000,
+            "combustible": "Gasolina",
+            "transmision": "Automatica"
+        },
+        {
+            "id": 6,
+            "marca": "Hyundai",
+            "modelo": "Tucson",
+            "anio": 2024,
+            "color": "Plateado",
+            "precio": 145000000,
+            "combustible": "Hibrido",
+            "transmision": "Automatica"
+        },
+        {
+            "id": 7,
+            "marca": "Ford",
+            "modelo": "Ranger",
+            "anio": 2023,
+            "color": "Blanco",
+            "precio": 175000000,
+            "combustible": "Diesel",
+            "transmision": "Manual"
+        },
+        {
+            "id": 8,
+            "marca": "Volkswagen",
+            "modelo": "Jetta",
+            "anio": 2022,
+            "color": "Negro",
+            "precio": 108000000,
+            "combustible": "Gasolina",
+            "transmision": "Automatica"
+        },
+        {
+            "id": 9,
+            "marca": "Nissan",
+            "modelo": "Versa",
+            "anio": 2024,
+            "color": "Gris",
+            "precio": 85000000,
+            "combustible": "Gasolina",
+            "transmision": "Manual"
+        },
+        {
+            "id": 10,
+            "marca": "Honda",
+            "modelo": "Civic",
+            "anio": 2023,
+            "color": "Azul",
+            "precio": 118000000,
+            "combustible": "Gasolina",
+            "transmision": "Automatica"
+        }
+    ]
+}
