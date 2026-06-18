@@ -1,0 +1,1 @@
+export const API_KEY = "AIzaSyFakeKey123456789";
