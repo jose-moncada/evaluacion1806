@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, TouchableOpacity, ScrollView } from "react-native";
+import { router } from "expo-router";
 
 import carrosData from "../cars.json";
 
@@ -11,7 +12,10 @@ export default function Page() {
           <Text style={styles.subtitle}>{carro.marca} {carro.modelo}</Text>
           <Text style={styles.description}>Año: {carro.anio}</Text>
           <Text style={styles.valor}>$ {carro.precio.toLocaleString("es-CO")}</Text>
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity
+            style={styles.button}
+            onPress={() => router.push(`/${carro.id}`)}
+          >
             <Text>Ver más</Text>
           </TouchableOpacity>
         </View>

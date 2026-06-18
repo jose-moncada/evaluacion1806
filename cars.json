@@ -8,7 +8,9 @@
             "color": "Blanco",
             "precio": 95000000,
             "combustible": "Gasolina",
-            "transmision": "Automatica"
+            "transmision": "Automatica",
+            "kilometraje": 18000,
+            "llantasCambio": false
         },
         {
             "id": 2,
@@ -18,7 +20,9 @@
             "color": "Rojo",
             "precio": 78000000,
             "combustible": "Gasolina",
-            "transmision": "Manual"
+            "transmision": "Manual",
+            "kilometraje": 12000,
+            "llantasCambio": false
         },
         {
             "id": 3,
@@ -28,7 +32,9 @@
             "color": "Gris",
             "precio": 89000000,
             "combustible": "Gasolina",
-            "transmision": "Automatica"
+            "transmision": "Automatica",
+            "kilometraje": 62000,
+            "llantasCambio": true
         },
         {
             "id": 4,
@@ -38,7 +44,9 @@
             "color": "Negro",
             "precio": 125000000,
             "combustible": "Gasolina",
-            "transmision": "Automatica"
+            "transmision": "Automatica",
+            "kilometraje": 8000,
+            "llantasCambio": false
         },
         {
             "id": 5,
@@ -48,7 +56,9 @@
             "color": "Azul",
             "precio": 138000000,
             "combustible": "Gasolina",
-            "transmision": "Automatica"
+            "transmision": "Automatica",
+            "kilometraje": 41000,
+            "llantasCambio": false
         },
         {
             "id": 6,
@@ -58,7 +68,9 @@
             "color": "Plateado",
             "precio": 145000000,
             "combustible": "Hibrido",
-            "transmision": "Automatica"
+            "transmision": "Automatica",
+            "kilometraje": 9000,
+            "llantasCambio": false
         },
         {
             "id": 7,
@@ -68,7 +80,9 @@
             "color": "Blanco",
             "precio": 175000000,
             "combustible": "Diesel",
-            "transmision": "Manual"
+            "transmision": "Manual",
+            "kilometraje": 73000,
+            "llantasCambio": true
         },
         {
             "id": 8,
@@ -78,7 +92,9 @@
             "color": "Negro",
             "precio": 108000000,
             "combustible": "Gasolina",
-            "transmision": "Automatica"
+            "transmision": "Automatica",
+            "kilometraje": 54000,
+            "llantasCambio": false
         },
         {
             "id": 9,
@@ -88,7 +104,9 @@
             "color": "Gris",
             "precio": 85000000,
             "combustible": "Gasolina",
-            "transmision": "Manual"
+            "transmision": "Manual",
+            "kilometraje": 15000,
+            "llantasCambio": false
         },
         {
             "id": 10,
@@ -98,7 +116,9 @@
             "color": "Azul",
             "precio": 118000000,
             "combustible": "Gasolina",
-            "transmision": "Automatica"
+            "transmision": "Automatica",
+            "kilometraje": 36000,
+            "llantasCambio": true
         }
     ]
 }
