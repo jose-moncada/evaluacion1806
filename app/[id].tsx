@@ -14,9 +14,7 @@ export default function Detalle() {
     if (!carro) {
         return (
             <View style={styles.container}>
-                <Text style={styles.error}>
-                    Vehículo no encontrado
-                </Text>
+                <Text style={styles.error}>Vehículo no encontrado</Text>
             </View>
         );
     }
@@ -30,58 +28,17 @@ export default function Detalle() {
     return (
         <View style={styles.container}>
             <View style={styles.card}>
-                <Text style={styles.title}>
-                    {carro.marca} {carro.modelo}
-                </Text>
-
-                <Text style={styles.info}>
-                    Año: {carro.anio}
-                </Text>
-
-                <Text style={styles.info}>
-                    Color: {carro.color}
-                </Text>
-
-                <Text style={styles.info}>
-                    Combustible: {carro.combustible}
-                </Text>
-
-                <Text style={styles.info}>
-                    Transmisión: {carro.transmision}
-                </Text>
-
-                <Text style={styles.price}>
-                    Precio Original:
-                    {"\n"}$ {carro.precio.toLocaleString("es-CO")}
-                </Text>
-
-                <Text style={styles.info}>
-                    Kilometraje:
-                    {"\n"}{carro.kilometraje.toLocaleString()} km
-                </Text>
-
-                <Text style={styles.price}>
-                    Valor Estimado:
-                    {"\n"}$ {resultado.valorFinal.toLocaleString("es-CO")}
-                </Text>
-
-                <Text
-                    style={[
-                        styles.tyreStatus,
-                        carro.llantasCambio
-                            ? styles.badStatus
-                            : styles.goodStatus
-                    ]}
-                >
-                    {carro.llantasCambio
-                        ? "Llantas para cambio"
-                        : "Llantas en buen estado"}
-                </Text>
-
+                <Text style={styles.title}>{carro.marca} {carro.modelo}</Text>
+                <Text style={styles.info}>Año: {carro.anio}</Text>
+                <Text style={styles.info}>Color: {carro.color}</Text>
+                <Text style={styles.info}>Combustible: {carro.combustible}</Text>
+                <Text style={styles.info}>Transmisión: {carro.transmision}</Text>
+                <Text style={styles.price}>Precio Original:{"\n"}$ {carro.precio.toLocaleString("es-CO")}</Text>
+                <Text style={styles.info}>Kilometraje:{"\n"}{carro.kilometraje.toLocaleString()} km</Text>
+                <Text style={styles.price}>Valor Estimado:{"\n"}$ {resultado.valorFinal.toLocaleString("es-CO")}</Text>
+                <Text style={[styles.tyreStatus, carro.llantasCambio ? styles.badStatus : styles.goodStatus]}>{carro.llantasCambio ? "Llantas para cambio" : "Llantas en buen estado"}</Text>
                 {resultado.requierePeritaje && (
-                    <Text style={styles.alert}>
-                        ⚠️ Se recomienda realizar peritaje por superar los 50.000 km
-                    </Text>
+                    <Text style={styles.alert}>⚠️ Se recomienda realizar peritaje por superar los 50.000 km</Text>
                 )}
             </View>
         </View>
